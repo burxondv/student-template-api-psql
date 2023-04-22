@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/burxondv/student/api/models"
-	"github.com/burxondv/student/storage/repo"
+	"github.com/burxondv/student-template-api-psql/api/models"
+	"github.com/burxondv/student-template-api-psql/storage/repo"
 	"github.com/gin-gonic/gin"
 )
 
@@ -72,7 +72,7 @@ func (h *handlerV1) GetStudent(c *gin.Context) {
 func getStudentResponse(data *repo.GetStudentResult) *models.GetStudentResponse {
 	response := models.GetStudentResponse{
 		Students: make([]*models.Student, 0),
-		Count:   data.Count,
+		Count:    data.Count,
 	}
 
 	for _, student := range data.Students {

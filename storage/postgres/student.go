@@ -3,7 +3,7 @@ package postgres
 import (
 	"fmt"
 
-	"github.com/burxondv/student/storage/repo"
+	"github.com/burxondv/student-template-api-psql/storage/repo"
 	"github.com/jmoiron/sqlx"
 )
 

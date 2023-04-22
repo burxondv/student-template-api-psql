@@ -1,10 +1,11 @@
 package v1
 
 import (
-	"github.com/burxondv/student/api/models"
-	"github.com/burxondv/student/config"
-	"github.com/burxondv/student/storage"
 	"strconv"
+
+	"github.com/burxondv/student-template-api-psql/api/models"
+	"github.com/burxondv/student-template-api-psql/config"
+	"github.com/burxondv/student-template-api-psql/storage"
 
 	"github.com/gin-gonic/gin"
 )

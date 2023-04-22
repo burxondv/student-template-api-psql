@@ -1,8 +1,8 @@
 package storage
 
 import (
-	"github.com/burxondv/student/storage/postgres"
-	"github.com/burxondv/student/storage/repo"
+	"github.com/burxondv/student-template-api-psql/storage/postgres"
+	"github.com/burxondv/student-template-api-psql/storage/repo"
 	"github.com/jmoiron/sqlx"
 )
 

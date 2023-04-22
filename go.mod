@@ -1,4 +1,4 @@
-module github.com/burxondv/student
+module github.com/burxondv/student-template-api-psql
 
 go 1.19
 

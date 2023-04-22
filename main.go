@@ -1,13 +1,14 @@
 package main
 
 import (
-	"github.com/burxondv/student/storage"
 	"fmt"
 	"log"
 
-	"github.com/burxondv/student/api"
+	"github.com/burxondv/student-template-api-psql/storage"
 
-	"github.com/burxondv/student/config"
+	"github.com/burxondv/student-template-api-psql/api"
+
+	"github.com/burxondv/student-template-api-psql/config"
 	"github.com/jmoiron/sqlx"
 	_ "github.com/lib/pq"
 )
